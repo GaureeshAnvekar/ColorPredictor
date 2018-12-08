@@ -1,0 +1,67 @@
+1544293946856	mozrunner::runner	INFO	Running command: "/root/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z0d1bp2pS6rZ"
+1544293950934	Marionette	INFO	Listening on port 36199
+1544293950986	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 3955, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3955, Gecko_IOThread] WARNING: pipe error (90): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544294136121	Marionette	INFO	Stopped listening on port 36199
+1544294177662	mozrunner::runner	INFO	Running command: "/root/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OGRrF435bKtR"
+1544294179639	Marionette	INFO	Listening on port 39213
+1544294179676	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 4249, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4249, Gecko_IOThread] WARNING: pipe error (129): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4249, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544294782642	Marionette	INFO	Stopped listening on port 39213
+1544294798141	mozrunner::runner	INFO	Running command: "/root/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HUX4byGke1XF"
+1544294799884	Marionette	INFO	Listening on port 38115
+1544294799954	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+[Parent 4595, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4595, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544297611748	Marionette	INFO	Stopped listening on port 38115
+1544297613197	mozrunner::runner	INFO	Running command: "/root/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rlLl48LOTXTF"
+1544297615290	Marionette	INFO	Listening on port 41345
+1544297615313	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5371, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5371, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544297698415	Marionette	INFO	Stopped listening on port 41345
+1544297701050	mozrunner::runner	INFO	Running command: "/root/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.slehDGcog0ZP"
+1544297702903	Marionette	INFO	Listening on port 45903
+1544297702959	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5584, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5584, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544297722266	Marionette	INFO	Stopped listening on port 45903
+1544297779904	mozrunner::runner	INFO	Running command: "/root/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WL5IzAALE97X"
+1544297781755	Marionette	INFO	Listening on port 46355
+1544297781813	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
