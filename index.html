@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="./iro.min.js"></script>
+  </head>
+  <body id="myspan" contenteditable="True" height="100%" width="100%"  style="text-align:center;padding-top:250px;background-color:black;color:white;display:block;min-width: 2px;">
+enter text here<br><br><br>
+    <div style="position:relative;left:1000px;top:100px;display:block;height:300px;width:300px;" id="color-picker-container" height="300px" width="300px"></div>
+    <script src="main.js"></script>
+    <script>
+      var demoColorPicker = new iro.ColorPicker("#color-picker-container", {width:200, height:200, borderWidth:2, borderColor:"rgb(255,0,0)"});
+      $(myspan).innerHTML = '&#200B';
+    </script>
+  </body>
+</html>
