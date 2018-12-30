@@ -3,15 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <script src="./iro.min.js"></script>
   </head>
-  <body id="myspan" contenteditable="True" height="100%" width="100%"  style="text-align:center;padding-top:250px;background-color:black;color:white;display:block;min-width: 2px;">
+  <body id="home" contenteditable="True" height="100%" width="100%"  style="text-align:center;padding-top:250px;background-color:black;color:white;display:block;min-width: 2px;">
 enter text here<br><br><br>
     <div style="position:relative;left:1000px;top:100px;display:block;height:300px;width:300px;" id="color-picker-container" height="300px" width="300px"></div>
+
+    <!--Dependencies
+        jquery, iro for color picker, numjs for numpy in js
+    !-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./iro.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
     <script src="main.js"></script>
-    <script>
-      var demoColorPicker = new iro.ColorPicker("#color-picker-container", {width:200, height:200, borderWidth:2, borderColor:"rgb(255,0,0)"});
-      $(myspan).innerHTML = '&#200B';
-    </script>
   </body>
 </html>
