@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body id="home" contenteditable="True" height="100%" width="100%"  style="text-align:center;padding-top:250px;background-color:black;color:white;display:block;min-width: 2px;">
-enter text here<br><br><br>
-    <div style="position:relative;left:1000px;top:100px;display:block;height:300px;width:300px;" id="color-picker-container" height="300px" width="300px"></div>
 
-    <!--Dependencies
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="styles/style1.css">
+</head>
+
+<body id="home" height="inherit" width="inherit" style="text-align:center;padding-top:220px;background-color:black;color:white;display:block;min-width: 2px;text-transform:uppercase;">
+  <p id="text" contenteditable="True" style="outline:none;">ENTER TEXT HERE!</p>
+  <div style="position:absolute;left:80%;top:65%;height:200px;width:200px;margin-right:0px;" id="color-picker-container" height="200px" width="200px"></div>
+  <div contenteditable="False" style="position:relative;left:1000px;bottom:450px;display:block;height:140px;width:300px;" height="300px" width="300px">
+    <!--    <img id="robot" src="images/robot-03-icon.png" title="The AI has detected that the text was not clear or visible and so it changed the text color" height="100" width="100"/>
+!-->
+    <div id="light-bulb" title="The AI has detected that the text was not clear or visible and so it changed the text color." class="off ui-draggable">
+      <div id="light-bulb2" style="opacity: 0; "></div>
+    </div>
+  </div>
+  <div style="position:absolute;bottom:5%;right:90%;margin:0px 0px;padding-top:80px;padding-right:50px;display:inline-block;text-align:center;"
+      title="1.) Enter a line of text.
+2.) Now steadily change the background color using the color picker tool provided at bottom-right(Use the slider also).
+3.) As you are gradually changing the background color, the moment you reach a point where the text is not clear, the AI detects it and changes the text color so that the text is visible again.
+4.) Continue changing the background color. The AI changes text color from black to white or vice-versa." >
+    <img src="images/Help-icon.png" id="help"/>
+  </div>
+  <!--Dependencies
         jquery, iro for color picker, numjs for numpy in js
     !-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="./iro.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
-    <script src="main.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="./iro.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
+
+  <script src="main.js"></script>
+
+</body>
+
 </html>
